@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Fuente más consistente con el resto del diseño */
+  background-color: #e0f7f5; /* Fondo menta suave */
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada clara y legible */
+  background-color: #f4f4f4; /* Fondo gris claro para el código */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 2px 4px; /* Espaciado interno */
+  color: #00796b; /* Color verde menta para el código */
+  font-size: 0.875rem; /* Tamaño de fuente más pequeño para el código */
+}
+
+pre {
+  background-color: #f4f4f4; /* Fondo gris claro para bloques de código */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  overflow-x: auto; /* Desplazamiento horizontal si el código es largo */
+  color: #00796b; /* Color verde menta para el código */
+  font-size: 0.875rem; /* Tamaño de fuente más pequeño para el código */
+}

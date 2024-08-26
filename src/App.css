@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7f5; /* Fondo menta suave */
+  color: #333;
+}
+
+main {
+  padding: 30px;
+  min-height: 80vh;
+  background-color: #ffffff; /* Fondo blanco para el contenido principal */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  margin: 20px auto;
+  max-width: 1200px; /* Ancho máximo del contenido principal */
+  text-align: center; /* Centra todo el contenido dentro de main */
+}
+
+header {
+  background-color: #004d40; /* Verde oscuro menta */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #b2dfdb; /* Cambia a un tono más claro de menta al pasar el mouse */
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #004d40; /* Verde oscuro menta */
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el pie de página */
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #00796b; /* Verde menta para los encabezados */
+  font-size: 2.5rem;
+  text-align: center; /* Centra el encabezado principal */
+}
+
+h2, h3, h4, h5, h6 {
+  color: #00796b; /* Verde menta para los subencabezados */
+  margin-bottom: 15px;
+  text-align: center; /* Centra los subtítulos */
+}
+
+h2 {
+  font-size: 2rem; /* Tamaño de fuente para h2 */
+}
+
+h3 {
+  font-size: 1.75rem; /* Tamaño de fuente para h3 */
+}
+
+h4 {
+  font-size: 1.5rem; /* Tamaño de fuente para h4 */
+}
+
+h5 {
+  font-size: 1.25rem; /* Tamaño de fuente para h5 */
+}
+
+h6 {
+  font-size: 1rem; /* Tamaño de fuente para h6 */
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container th,
+.table-container td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  position: relative; /* Necesario para posicionar los botones dentro de las celdas */
+}
+
+.table-container th {
+  background-color: #00796b; /* Verde menta para los encabezados de la tabla */
+  color: white;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Color de fondo alternado para las filas */
+}
+
+.table-container tbody tr:hover {
+  background-color: #f1f1f1; /* Color de fondo al pasar el mouse */
+}
+
+.button-container {
+  position: absolute;
+  bottom: 10px; /* Espacio desde el fondo de la celda */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+.suggestion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido horizontalmente */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  max-width: 600px; /* Ancho máximo del contenedor para evitar que se expanda demasiado */
+  margin: 0 auto; /* Centra el contenedor en el medio de la página */
+}
+
+.suggestion-label {
+  display: block; /* Asegura que la etiqueta ocupe toda la línea */
+  font-size: 1.5rem; /* Tamaño de fuente más grande */
+  color: #00796b; /* Color verde menta */
+  margin-bottom: 10px; /* Espacio debajo de la etiqueta */
+  text-align: center; /* Centra el texto de la etiqueta */
+}
+
+.suggestion-input {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  padding: 15px; /* Espacio interno dentro del campo de entrada */
+  border: 1px solid #ccc; /* Borde ligero */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 1rem; /* Tamaño de fuente dentro del campo de entrada */
+  margin-bottom: 20px; /* Espacio debajo del campo de entrada */
+  box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}

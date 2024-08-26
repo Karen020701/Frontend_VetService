@@ -1,0 +1,87 @@
+.home-container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 20px;
+    background: #e0f7f5; /* Fondo de color menta suave */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 600px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: #004d40; /* Verde oscuro para contraste */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 30px auto;
+    background-image: url('/src/Resources/logo.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 4px solid #004d40; /* Borde menta oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #00796b; /* Verde menta */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40; /* Verde más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 121, 107, 0.5);
+}
+
+p {
+    font-size: 18px;
+    color: #00695c; /* Texto color verde menta oscuro */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #004d40; /* Bordes verdes */
+    text-align: center;
+}
+
+th {
+    background-color: #00796b;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #e0f7f5;
+    color: #004d40;
+}

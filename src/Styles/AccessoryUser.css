@@ -1,0 +1,46 @@
+.accessory-user {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .accessory-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .accessory-table th, .accessory-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .accessory-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+  }
+  
+  .accessory-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .accessory-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .error {
+    color: red;
+  }
+  
